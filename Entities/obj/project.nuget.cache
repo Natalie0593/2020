@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tdd0OQJ9bom499Abu1sn2wAjnSu5AKQDfswfVe50beJTnVIkmxemfhhwL3Q5JpJzqCt3ysZzrC3dF8TvkKz+iA==",
+  "dgSpecHash": "+2OfP4IGrcK/uYcCcL/CjHKaw4DrCF6ANVOidmDU4vtuTxN+9tp9vx1EEF2Mwx2us+z9Hac3phhY3g5K+y93gw==",
   "success": true,
   "projectFilePath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
@@ -28,12 +28,7 @@
     "C:\\Users\\karpi\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0-preview2.19525.4\\microsoft.extensions.primitives.3.1.0-preview2.19525.4.nupkg.sha512",
     "C:\\Users\\karpi\\.nuget\\packages\\system.collections.immutable\\1.7.0-preview2.19523.17\\system.collections.immutable.1.7.0-preview2.19523.17.nupkg.sha512",
     "C:\\Users\\karpi\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0-preview2.19523.17\\system.componentmodel.annotations.4.7.0-preview2.19523.17.nupkg.sha512",
-    "C:\\Users\\karpi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0-preview2.19523.17\\system.diagnostics.diagnosticsource.4.7.0-preview2.19523.17.nupkg.sha512",
-    "C:\\Users\\karpi\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
-    "C:\\Users\\karpi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0-preview2.19523.17\\system.runtime.compilerservices.unsafe.4.7.0-preview2.19523.17.nupkg.sha512",
-    "C:\\Users\\karpi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "C:\\Users\\karpi\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\karpi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+    "C:\\Users\\karpi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0-preview2.19523.17\\system.diagnostics.diagnosticsource.4.7.0-preview2.19523.17.nupkg.sha512"
   ],
   "logs": []
 }
