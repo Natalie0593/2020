@@ -9,5 +9,4 @@
 * Логи
 * Страницы ошибок
 * Работа с конфигурациями 
-* 3rd party auth providers
-* Background jobs
+* https://bloghost20201127133656.azurewebsites.net/

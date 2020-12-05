@@ -1,8 +1,12 @@
 D:\BlogHost-Core-3-1.0\qwert\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\BlogHost-Core-3-1.0\qwert\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+D:\BlogHost-Core-3-1.0\qwert\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
 D:\BlogHost-Core-3-1.0\qwert\Entities\bin\Debug\netcoreapp3.1\Entities.dll
 D:\BlogHost-Core-3-1.0\qwert\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\BlogHost-Core-3-1.0\qwert\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
 D:\BlogHost-Core-3-1.0\qwert\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
 D:\BlogHost-Core-3-1.0\qwert\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
 D:\BlogHost-Core-3-1.0\qwert\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
 D:\BlogHost-Core-3-1.0\qwert\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 D:\BlogHost-Core-3-1.0\qwert\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+D:\BlogHost-Core-3-1.0\qwert\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache

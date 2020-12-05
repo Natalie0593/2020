@@ -1,4 +1,6 @@
 D:\BlogHost-Core-3-1.0\qwert\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+D:\BlogHost-Core-3-1.0\qwert\Services\bin\Debug\netcoreapp3.1\Services.runtimeconfig.json
+D:\BlogHost-Core-3-1.0\qwert\Services\bin\Debug\netcoreapp3.1\Services.runtimeconfig.dev.json
 D:\BlogHost-Core-3-1.0\qwert\Services\bin\Debug\netcoreapp3.1\Services.dll
 D:\BlogHost-Core-3-1.0\qwert\Services\bin\Debug\netcoreapp3.1\Services.pdb
 D:\BlogHost-Core-3-1.0\qwert\Services\bin\Debug\netcoreapp3.1\Entities.dll
@@ -14,3 +16,4 @@ D:\BlogHost-Core-3-1.0\qwert\Services\obj\Debug\netcoreapp3.1\Services.csproj.Co
 D:\BlogHost-Core-3-1.0\qwert\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
 D:\BlogHost-Core-3-1.0\qwert\Services\obj\Debug\netcoreapp3.1\Services.dll
 D:\BlogHost-Core-3-1.0\qwert\Services\obj\Debug\netcoreapp3.1\Services.pdb
+D:\BlogHost-Core-3-1.0\qwert\Services\obj\Debug\netcoreapp3.1\Services.genruntimeconfig.cache

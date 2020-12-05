@@ -44,8 +44,8 @@ namespace ViewModels
         [Display(Name = "Подтвердить пароль")]
         public string PasswordConfirm { get; set; }
 
-        [Required]
-        [Display(Name = "Аватарка")]
-        public IFormFile Avatar { get; set; }
+        //[Required]
+        //[Display(Name = "Аватарка")]
+        //public IFormFile Avatar { get; set; }
     }
 }

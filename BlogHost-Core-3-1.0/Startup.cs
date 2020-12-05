@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using BlogHost.BackgroundService;
 using Entities;
 using BlogHost.Logger;
 using Microsoft.AspNetCore.Builder;
@@ -80,16 +79,22 @@ namespace BlogHost
 
             services.AddSignalR();
 
-            services.AddHostedService<TimedHostedService>();
 
             services.Configure<ForwardedHeadersOptions>(options =>
             {
                 options.ForwardedHeaders =
                     ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
             });
+
+            services.AddAuthentication()
+                   .AddGoogle(options =>
+                   {
+                       options.ClientId = "454857910144-4f2e8u6ulf7reicpf3a47m4bo7117us4.apps.googleusercontent.com";
+                       options.ClientSecret = "ilVna-yu_xSBxMAofOXRBRwC";
+                   });
         }
 
-        public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory, IConfiguration Configuration)
+        public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory)
         {
             app.UseForwardedHeaders();
 
@@ -108,7 +113,7 @@ namespace BlogHost
             app.UseAuthorization();
             app.UseAuthentication();
 
-            loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), Configuration["FileNameLogger:Name"]));
+            loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
             var logger = loggerFactory.CreateLogger("FileLogger");
 
             app.Map("/error", ap => ap.Run(async context =>

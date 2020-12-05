@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BlogHost.Controllers
 {
+    [Microsoft.AspNetCore.Authorization.Authorize(Roles = "admin")]
     public class RolesController : Controller
     {
         RoleManager<IdentityRole> _roleManager;

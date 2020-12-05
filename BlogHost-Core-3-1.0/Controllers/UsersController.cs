@@ -4,6 +4,7 @@ using Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Services;
+using System.IO;
 
 namespace BlogHost.Controllers
 {
@@ -79,6 +80,7 @@ namespace BlogHost.Controllers
         public async Task<IActionResult> Edit(string id)
         {
             User user = await _userManager.FindByIdAsync(id);
+
             if (user == null)
             {
                 return NotFound();
@@ -91,7 +93,9 @@ namespace BlogHost.Controllers
                 Gender = user.Gender,
                 Name = user.Name,
                 SecondName = user.SecondName,
-                Profession = user.Profession
+                Profession = user.Profession,
+
+
             };
             return View(model);
         }
@@ -102,6 +106,12 @@ namespace BlogHost.Controllers
             if (ModelState.IsValid)
             {
                 User user = await _userManager.FindByIdAsync(model.Id);
+                byte[] imageData = null;
+                // считываем переданный файл в массив байтов
+                using (var binaryReader = new BinaryReader(model.Avatar.OpenReadStream()))
+                {
+                    imageData = binaryReader.ReadBytes((int)model.Avatar.Length);
+                }
                 if (user != null)
                 {
                     user.Email = model.Email;
@@ -111,7 +121,7 @@ namespace BlogHost.Controllers
                     user.SecondName = model.SecondName;
                     user.Profession = model.Profession;
                     user.Gender = model.Gender;
-
+                    user.Avatar = imageData;
                     var result = await _userManager.UpdateAsync(user);
                     if (result.Succeeded)
                     {

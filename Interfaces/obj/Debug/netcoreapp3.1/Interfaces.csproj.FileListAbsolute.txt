@@ -1,4 +1,6 @@
 D:\BlogHost-Core-3-1.0\qwert\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.deps.json
+D:\BlogHost-Core-3-1.0\qwert\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.runtimeconfig.json
+D:\BlogHost-Core-3-1.0\qwert\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.runtimeconfig.dev.json
 D:\BlogHost-Core-3-1.0\qwert\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.dll
 D:\BlogHost-Core-3-1.0\qwert\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.pdb
 D:\BlogHost-Core-3-1.0\qwert\Interfaces\bin\Debug\netcoreapp3.1\Entities.dll
@@ -10,3 +12,4 @@ D:\BlogHost-Core-3-1.0\qwert\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.cspro
 D:\BlogHost-Core-3-1.0\qwert\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CopyComplete
 D:\BlogHost-Core-3-1.0\qwert\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
 D:\BlogHost-Core-3-1.0\qwert\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb
+D:\BlogHost-Core-3-1.0\qwert\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.genruntimeconfig.cache
