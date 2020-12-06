@@ -114,7 +114,6 @@ namespace BlogHost
             app.UseAuthentication();
 
             loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
-            var logger = loggerFactory.CreateLogger("FileLogger");
 
             app.Map("/error", ap => ap.Run(async context =>
             {
