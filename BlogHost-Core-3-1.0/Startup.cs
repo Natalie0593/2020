@@ -94,45 +94,54 @@ namespace BlogHost
                    });
         }
 
-        public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory, IConfiguration Configuration)
         {
-            app.UseForwardedHeaders();
 
-            app.UseDeveloperExceptionPage();
-            app.UseStatusCodePages();
-            app.UseStatusCodePagesWithReExecute("/error", "?code={0}");
-
-            app.UseStaticFiles();
-
-            app.UseHttpsRedirection();
-
-            app.UseSession();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-            app.UseAuthentication();
-
-            loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
-
-            app.Map("/error", ap => ap.Run(async context =>
+            if (env.IsDevelopment())
             {
-                await context.Response.WriteAsync($"Err: {context.Request.Query["code"]}");
-            }));
-
-            app.Use((context, next) =>
+                app.UseDeveloperExceptionPage();
+                loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
+            }
+            else
             {
-                context.Request.Scheme = "https";
-                return next();
-            });
+                app.UseForwardedHeaders();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapHub<ChatHub>("/Chat");
-            });
+                // app.UseDeveloperExceptionPage();
+                app.UseStatusCodePages();
+                app.UseStatusCodePagesWithReExecute("/error", "?code={0}");
+
+                app.UseStaticFiles();
+
+                app.UseHttpsRedirection();
+
+                app.UseSession();
+
+                app.UseRouting();
+
+                app.UseAuthorization();
+                app.UseAuthentication();
+
+                // loggerFactory.AddFile(Path.Combine(Directory.GetCurrentDirectory(), "logger.txt"));
+
+                app.Map("/error", ap => ap.Run(async context =>
+                {
+                    await context.Response.WriteAsync($"Err: {context.Request.Query["code"]}");
+                }));
+
+                app.Use((context, next) =>
+                {
+                    context.Request.Scheme = "https";
+                    return next();
+                });
+
+                app.UseEndpoints(endpoints =>
+                {
+                    endpoints.MapControllerRoute(
+                        name: "default",
+                        pattern: "{controller=Home}/{action=Index}/{id?}");
+                    endpoints.MapHub<ChatHub>("/Chat");
+                });
+            }
         }
     }
 }
