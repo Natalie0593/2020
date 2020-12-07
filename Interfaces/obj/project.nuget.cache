@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5MCcE2nGdzmIjDfinCxKhQ2heiLNjC8EUTQGDJhy+ZVoykvuUSRhavLZem0muqdxYU6sySu8bsEQ0Z8IppVGYQ==",
+  "dgSpecHash": "5HripHqYNYOtvAE3pvNiD4CX8sFDZW4QUJXN+9EpnUVGk32V7PfTn5s3nDi7J1NOXMs1JLn0xL9NizDLP3TT1g==",
   "success": true,
-  "projectFilePath": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj",
+  "projectFilePath": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karpi\\.nuget\\packages\\entityframework\\6.4.0-preview2-19525-03\\entityframework.6.4.0-preview2-19525-03.nupkg.sha512",
     "C:\\Users\\karpi\\.nuget\\packages\\jquery\\1.6.4\\jquery.1.6.4.nupkg.sha512",

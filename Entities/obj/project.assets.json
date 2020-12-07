@@ -10479,11 +10479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj",
+      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj",
+      "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-      "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\obj\\",
+      "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

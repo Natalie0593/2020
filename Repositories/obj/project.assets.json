@@ -10627,11 +10627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\Repositories.csproj",
+      "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-      "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\obj\\",
+      "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10650,14 +10650,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
+            "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
             },
-            "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj"
+            "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj"
             },
-            "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj"
+            "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj"
             }
           }
         }
