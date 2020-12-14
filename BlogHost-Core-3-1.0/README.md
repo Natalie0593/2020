@@ -9,6 +9,4 @@
 * Логи
 * Страницы ошибок
 * Работа с конфигурациями 
-* Onion architecture
-* 3rd rapty auth
 * https://bloghost20201127133656.azurewebsites.net/

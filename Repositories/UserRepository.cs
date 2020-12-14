@@ -18,6 +18,10 @@ namespace Repositories
         {
             return _appDbContext.Users.FirstOrDefault(x => x.Id == id.ToString());
         }
+        public User GetUserDB(int id)
+        {
+            return _appDbContext.Users.FirstOrDefault(x => x.Id == id.ToString());
+        }
         public IEnumerable<User> GetAll()
         {
             return _appDbContext.Users;

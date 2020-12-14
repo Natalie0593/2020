@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj": {}
+    "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj": {}
   },
   "projects": {
-    "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
+    "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj",
+        "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-        "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\obj\\",
+        "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -130,14 +130,14 @@
         }
       }
     },
-    "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj": {
+    "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj",
+        "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-        "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\obj\\",
+        "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -156,8 +156,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
               }
             }
           }

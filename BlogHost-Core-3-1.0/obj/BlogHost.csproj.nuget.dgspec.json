@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BlogHost-Core-3-1.0\\Example\\BlogHost-Core-3-1.0\\BlogHost.csproj": {}
+    "D:\\BlogHost-Core-3-1.0\\qwert\\BlogHost-Core-3-1.0\\BlogHost.csproj": {}
   },
   "projects": {
-    "D:\\BlogHost-Core-3-1.0\\Example\\BlogHost-Core-3-1.0\\BlogHost.csproj": {
+    "D:\\BlogHost-Core-3-1.0\\qwert\\BlogHost-Core-3-1.0\\BlogHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\BlogHost-Core-3-1.0\\BlogHost.csproj",
+        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\BlogHost-Core-3-1.0\\BlogHost.csproj",
         "projectName": "BlogHost",
-        "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\BlogHost-Core-3-1.0\\BlogHost.csproj",
+        "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\BlogHost-Core-3-1.0\\BlogHost.csproj",
         "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-        "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\BlogHost-Core-3-1.0\\obj\\",
+        "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\BlogHost-Core-3-1.0\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,17 +30,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
               },
-              "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\Repositories.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\Repositories.csproj"
               },
-              "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj"
               },
-              "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj"
               }
             }
           }
@@ -143,14 +143,14 @@
         }
       }
     },
-    "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
+    "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj",
+        "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-        "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\obj\\",
+        "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -269,14 +269,14 @@
         }
       }
     },
-    "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj": {
+    "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj",
+        "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj",
         "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-        "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\obj\\",
+        "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -295,8 +295,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
               }
             }
           }
@@ -399,14 +399,14 @@
         }
       }
     },
-    "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\Repositories.csproj": {
+    "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\Repositories.csproj",
+        "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-        "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\obj\\",
+        "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -425,14 +425,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
               },
-              "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj"
               },
-              "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj"
               }
             }
           }
@@ -535,14 +535,14 @@
         }
       }
     },
-    "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj": {
+    "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj",
+        "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-        "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\obj\\",
+        "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -561,14 +561,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
               },
-              "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj"
               },
-              "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj"
               }
             }
           }
@@ -671,14 +671,14 @@
         }
       }
     },
-    "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj": {
+    "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj",
+        "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj",
         "projectName": "ViewModels",
-        "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj",
+        "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj",
         "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-        "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\obj\\",
+        "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -697,8 +697,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
+              "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
               }
             }
           }

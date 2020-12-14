@@ -10515,11 +10515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj",
+      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj",
       "projectName": "ViewModels",
-      "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj",
+      "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj",
       "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-      "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\obj\\",
+      "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10538,8 +10538,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
+            "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
             }
           }
         }

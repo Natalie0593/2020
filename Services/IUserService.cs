@@ -9,5 +9,6 @@ namespace Services
     {
         public User GetUserDB(string id);
         public IEnumerable<User> GetAll();
+        User GetUserDB(int value);
     }
 }

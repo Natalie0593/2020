@@ -23,6 +23,9 @@ namespace Services
             return _user.GetAll();
         }
 
-
+        public User GetUserDB(int value)
+        {
+            return _user.GetUserDB(value);
+        }
     }
 }

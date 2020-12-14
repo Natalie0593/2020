@@ -18,6 +18,7 @@ namespace BlogHost.Controllers
         //private readonly IPublication _publication;
         IPublicationService _publicationService;
         ITopicService _topicService;
+        private IUserService object1;
         //private readonly ITopic _topic; //заменить
 
         public UsersController(UserManager<User> userManager, IUserService iUser, IPublicationService iPublication, ITopicService iTopic)
@@ -27,10 +28,12 @@ namespace BlogHost.Controllers
             _topicService = iTopic;
             _userManager = userManager;
         }
-        //public UsersController(IUser @object)
-        //{
-        //    this.@object = @object;
-        //}
+
+        public UsersController(IUserService object1)
+        {
+            _userService = object1;
+        }
+
         public IActionResult Index()
         {
             return View(_userService.GetAll());
@@ -67,11 +70,12 @@ namespace BlogHost.Controllers
             return View(model);
         }
 
-        public IActionResult GetUser(int? id)
+
+        public IActionResult GetUser(string id)
         {
-            if (!id.HasValue)
+            if (id == null)
                 return BadRequest();
-            User user = _userService.GetUserDB("id.Value");
+            User user = _userService.GetUserDB(id);
             if (user == null)
                 return NotFound();
             return View(user);

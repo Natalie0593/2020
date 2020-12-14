@@ -10746,11 +10746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\BlogHost-Core-3-1.0\\BlogHost.csproj",
+      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\BlogHost-Core-3-1.0\\BlogHost.csproj",
       "projectName": "BlogHost",
-      "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\BlogHost-Core-3-1.0\\BlogHost.csproj",
+      "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\BlogHost-Core-3-1.0\\BlogHost.csproj",
       "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-      "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\BlogHost-Core-3-1.0\\obj\\",
+      "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\BlogHost-Core-3-1.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10769,17 +10769,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
+            "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
             },
-            "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Repositories\\Repositories.csproj"
+            "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Repositories\\Repositories.csproj"
             },
-            "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj"
+            "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj"
             },
-            "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj"
+            "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj"
             }
           }
         }

@@ -3445,10 +3445,7 @@
         },
         "runtime": {
           "bin/placeholder/Entities.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Interfaces/1.0.0": {
         "type": "project",
@@ -3476,10 +3473,7 @@
         },
         "runtime": {
           "bin/placeholder/Interfaces.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "ViewModels/1.0.0": {
         "type": "project",
@@ -3507,10 +3501,7 @@
         },
         "runtime": {
           "bin/placeholder/ViewModels.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -10589,11 +10580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj",
+      "projectUniqueName": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\Services.csproj",
+      "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\karpi\\.nuget\\packages\\",
-      "outputPath": "D:\\BlogHost-Core-3-1.0\\Example\\Services\\obj\\",
+      "outputPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10612,14 +10603,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Entities\\Entities.csproj"
+            "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Entities\\Entities.csproj"
             },
-            "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\Interfaces\\Interfaces.csproj"
+            "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\Interfaces\\Interfaces.csproj"
             },
-            "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj": {
-              "projectPath": "D:\\BlogHost-Core-3-1.0\\Example\\ViewModels\\ViewModels.csproj"
+            "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj": {
+              "projectPath": "D:\\BlogHost-Core-3-1.0\\qwert\\ViewModels\\ViewModels.csproj"
             }
           }
         }

@@ -11,5 +11,6 @@ namespace Interfaces
         public User GetUserDB(string id);
         IEnumerable<User> GetAll();
         User Get(int id);
+        User GetUserDB(int value);
     }
 }
